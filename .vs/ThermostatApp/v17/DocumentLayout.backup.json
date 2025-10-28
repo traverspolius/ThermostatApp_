@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F36E48-09C4-41C7-AEA7-C960725E78CE}|thermostatapp.client\\thermostatapp.client.esproj|d:\\documents\\visual studio projects\\home_assignment\\thermostatapp_v1\\thermostatapp_\\thermostatapp.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F3F36E48-09C4-41C7-AEA7-C960725E78CE}|thermostatapp.client\\thermostatapp.client.esproj|solutionrelative:thermostatapp.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\thermostatapp.client\\.gitignore",
+              "RelativeDocumentMoniker": "thermostatapp.client\\.gitignore",
+              "ToolTip": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\thermostatapp.client\\.gitignore",
+              "RelativeToolTip": "thermostatapp.client\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-28T06:42:33.199Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

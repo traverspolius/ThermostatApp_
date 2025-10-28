@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp.Server\\ThermostatApp.Server.csproj": {}
+    "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\ThermostatApp.Server\\ThermostatApp.Server.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp.Server\\ThermostatApp.Server.csproj": {
+    "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\ThermostatApp.Server\\ThermostatApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp.Server\\ThermostatApp.Server.csproj",
+        "projectUniqueName": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\ThermostatApp.Server\\ThermostatApp.Server.csproj",
         "projectName": "ThermostatApp.Server",
-        "projectPath": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp.Server\\ThermostatApp.Server.csproj",
+        "projectPath": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\ThermostatApp.Server\\ThermostatApp.Server.csproj",
         "packagesPath": "C:\\Users\\tpoli\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp.Server\\obj\\",
+        "outputPath": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\ThermostatApp.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,36 @@
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[8.*-*, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[3.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

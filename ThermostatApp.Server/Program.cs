@@ -1,30 +1,28 @@
+using Microsoft.EntityFrameworkCore;
+using ThermostatApp.Server.Data;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore.Sqlite;
+using Microsoft.AspNetCore.SpaServices.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
+var cs = builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=thermostat.db";
 
-// Add services to the container.
-
+// ... rest of your code remains unchanged
+builder.Services.AddDbContext<ThermostatDbContext>(o => o.UseSqlite(cs));
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSpaStaticFiles(c => c.RootPath = "thermostatapp.client/dist");
 
 var app = builder.Build();
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var db = scope.ServiceProvider.GetRequiredService<ThermostatDbContext>();
+    db.Database.Migrate();
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
+app.UseStaticFiles();
+app.UseSpaStaticFiles();
 app.MapControllers();
-
-app.MapFallbackToFile("/index.html");
-
+app.MapFallbackToFile("index.html");
 app.Run();

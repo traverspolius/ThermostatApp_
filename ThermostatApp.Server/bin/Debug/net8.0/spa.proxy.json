@@ -1,9 +1,9 @@
 {
 "SpaProxyServer": {
-"ServerUrl": "https://localhost:64917",
+"ServerUrl": "https://localhost:51281",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp.Server\\..\\thermostatapp.client",
+"WorkingDirectory": "D:\\Documents\\Visual Studio Projects\\Home_Assignment\\ThermostatApp_v1\\ThermostatApp_\\ThermostatApp.Server\\..\\thermostatapp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

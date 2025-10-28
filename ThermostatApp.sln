@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "thermostatapp.client", "thermostatapp.client\thermostatapp.client.esproj", "{F3F36E48-09C4-41C7-AEA7-C960725E78CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThermostatApp.Server", "ThermostatApp.Server\ThermostatApp.Server.csproj", "{8BC0368E-CDB9-4022-A883-12D5B8F2BA4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThermostatApp.Server", "ThermostatApp.Server\ThermostatApp.Server.csproj", "{40480494-DB71-4081-A65A-B3A1565570E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,15 +19,15 @@ Global
 		{F3F36E48-09C4-41C7-AEA7-C960725E78CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3F36E48-09C4-41C7-AEA7-C960725E78CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3F36E48-09C4-41C7-AEA7-C960725E78CE}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{8BC0368E-CDB9-4022-A883-12D5B8F2BA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BC0368E-CDB9-4022-A883-12D5B8F2BA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BC0368E-CDB9-4022-A883-12D5B8F2BA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BC0368E-CDB9-4022-A883-12D5B8F2BA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40480494-DB71-4081-A65A-B3A1565570E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40480494-DB71-4081-A65A-B3A1565570E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40480494-DB71-4081-A65A-B3A1565570E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40480494-DB71-4081-A65A-B3A1565570E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0283F110-3E25-46E7-868F-9DAAC4B1AEBE}
+		SolutionGuid = {DDD534E8-B741-429B-B1B1-83465A017EC1}
 	EndGlobalSection
 EndGlobal

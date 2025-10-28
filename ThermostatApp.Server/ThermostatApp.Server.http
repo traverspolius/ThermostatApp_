@@ -1,4 +1,4 @@
-@ThermostatApp.Server_HostAddress = http://localhost:5129
+@ThermostatApp.Server_HostAddress = http://localhost:5291
 
 GET {{ThermostatApp.Server_HostAddress}}/weatherforecast/
 Accept: application/json

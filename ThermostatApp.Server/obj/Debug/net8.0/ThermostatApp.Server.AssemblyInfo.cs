@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThermostatApp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+651931061ace87b538516797b96f91489ace07b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+214982c7b1256b455d7d14caa9ed78e73a61b920")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThermostatApp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThermostatApp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
