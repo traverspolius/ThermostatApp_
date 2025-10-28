@@ -1,0 +1,1 @@
+D:\Documents\Visual Studio Projects\Home_Assignment\ThermostatApp_v1\thermostatapp.client\obj\Debug\thermostatapp.client.esproj.CoreCompileInputs.cache
