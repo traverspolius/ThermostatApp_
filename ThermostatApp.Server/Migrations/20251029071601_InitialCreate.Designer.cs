@@ -11,7 +11,7 @@ using ThermostatApp.Server.Data;
 namespace ThermostatApp.Server.Migrations
 {
     [DbContext(typeof(ThermostatDbContext))]
-    [Migration("20251027055952_InitialCreate")]
+    [Migration("20251029071601_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

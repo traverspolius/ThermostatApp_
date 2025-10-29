@@ -1,6 +1,17 @@
-@ThermostatApp.Server_HostAddress = http://localhost:5291
+@ThermostatApp_Server_HostAddress = https://localhost:7182
+@json = application/json
 
-GET {{ThermostatApp.Server_HostAddress}}/weatherforecast/
-Accept: application/json
+### GET latest readings
+GET {{ThermostatApp_Server_HostAddress}}/api/readings?take=5
+Accept: {{json}}
 
-###
+### POST a new reading
+POST {{ThermostatApp_Server_HostAddress}}/api/readings
+Content-Type: {{json}}
+Accept: {{json}}
+
+{
+  "temperatureC": 21.5,
+  "location": "Living Room",
+  "notes": "Test via .http file"
+}

@@ -1,58 +1,20 @@
-import { useEffect, useState } from 'react';
-import './App.css';
+import { useState } from 'react';
+import ReadingForm from './components/ReadingForm';
+import ReadingList from './components/ReadingList';
 
-interface Forecast {
-    date: string;
-    temperatureC: number;
-    temperatureF: number;
-    summary: string;
-}
 
-function App() {
-    const [forecasts, setForecasts] = useState<Forecast[]>();
-
-    useEffect(() => {
-        populateWeatherData();
-    }, []);
-
-    const contents = forecasts === undefined
-        ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tableLabel">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
-                </tr>
-            </thead>
-            <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
-
+export default function App() {
+    const [refreshKey, setRefreshKey] = useState(0);
     return (
-        <div>
-            <h1 id="tableLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
-            {contents}
+        <div className="min-h-screen bg-gray-50">
+            <div className="max-w-2xl mx-auto p-6 space-y-6">
+                <header>
+                    <h1 className="text-3xl font-bold">Thermostat Readings</h1>
+                    <p className="text-gray-600">Add a reading and see the latest 20, newest first.</p>
+                </header>
+                <ReadingForm onCreated={() => setRefreshKey(k => k + 1)} />
+                <ReadingList refreshKey={refreshKey} />
+            </div>
         </div>
     );
-
-    async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        if (response.ok) {
-            const data = await response.json();
-            setForecasts(data);
-        }
-    }
 }
-
-export default App;
