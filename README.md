@@ -80,7 +80,7 @@ Through this project, I reinforced my understanding of:
 ## 📸 Demo Preview
 | Screenshot | Description |
 |-------------|--------------|
-| ![Thermostat Readings UI](screenshot.png) | Form to add new readings and live list of latest entries |
+| ![Thermostat Readings UI](Thermostat_Readings_Test_v1_imgb.png) | Form to add new readings and live list of latest entries |
 
 ---
 
